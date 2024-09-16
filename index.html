@@ -12,9 +12,9 @@
 
   <body>
     <header class="header">
-      <nav class="header__menu">
+      <nav>
         <ul class="header__links-list">
-          <li class="header__links-list-item_no-bullit">
+          <li class="header__links-list-item_no-bullet">
             <a class="header__link_active" href="#">главная</a>
           </li>
           <li class="header__links-list-item">
@@ -44,14 +44,15 @@
       <div class="overlay"></div>
       <img src="images/cover.jpg" alt="Фон" class="cover__image" />
       <h1 class="cover__title">
-        <span class="aligned-text"
+        <span class="aligned-text letter-spacing"
           >О<span class="letter-spacing-extended">Н</span>О</span
         >
-        <span class="aligned-text_center"
+        <span class="aligned-text_center letter-spacing"
           >ТЕ<span class="letter-spacing-extended">Б</span>Е</span
         >
         <span class="aligned-text_right"
-          ><span class="letter-spacing-extended">Н</span>АДО</span
+          ><span class="letter-spacing-extended">Н</span
+          ><span class="letter-spacing">АД</span>О</span
         >
       </h1>
       <div class="description">
@@ -116,9 +117,15 @@
     <section class="about">
       <div class="about__column">
         <div class="about__logo">
-          <img src="./images/logo-white.svg" class="about__logo-image" />
+          <div class="about__logo-circle">
+            <img
+              src="./images/logo-white.svg"
+              class="about__logo-image"
+              alt="Логотип сайта оно тебе надо в белом цвете"
+            />
+          </div>
         </div>
-        <div>
+        <div class="about__description">
           <h2 class="about__title">Об аукционе</h2>
           <div class="about__text">
             <p>
